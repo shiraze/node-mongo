@@ -1,8 +1,9 @@
 {
-  "name": "crm",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node, Express and Mongo backend",
   "main": "index.js",
+  "repository": "github:mannyhenri/node-mongo-docker",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./index.js --exec babel-node -e js"
