@@ -1,2 +1,3 @@
-# node-mongo-docker
-A node and express docker template with Mongo
+# node-mongo
+
+A node and express template with Mongo
