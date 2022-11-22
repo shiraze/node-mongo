@@ -1,3 +1,7 @@
 # node-mongo
 
-A node and express template with Mongo
+A node / express template with Mongo
+
+Server runs at http://localhost:3000
+
+Tested with MongoDB 6.0.3 Community edition

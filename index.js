@@ -4,13 +4,11 @@ import bodyParser from "body-parser";
 import routes from "./src/routes/crmRoutes";
 
 const app = express();
-const PORT = 4000;
+const PORT = 3000;
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/CRMdb", {
-  useMongoClient: true,
-});
+mongoose.connect("mongodb://localhost:27017/CRMdb");
 
 // bodyparser setup
 app.use(bodyParser.urlencoded({ extended: true }));
